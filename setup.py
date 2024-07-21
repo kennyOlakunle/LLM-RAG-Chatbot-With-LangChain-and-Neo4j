@@ -5,8 +5,8 @@ import os
 load_dotenv()
 
 # Access the environment variables
-secret_key = os.getenv('SECRET_KEY')
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 debug = os.getenv('DEBUG')
 
-print(f'Secret Key: {secret_key}')
+print(f'Secret Key: {OPENAI_API_KEY}')
 print(f'Debug Mode: {debug}')
