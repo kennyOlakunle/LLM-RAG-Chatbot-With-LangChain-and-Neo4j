@@ -20,3 +20,6 @@ This flowchart illustrates how data moves through the chatbot, starting from the
 - LangChain Neo4j Reviews Vector Chain: The patient review embeddings are stored in Neo4j. The chain searches for relevant reviews based on those semantically similar to the user query, and the reviews are used to answer the user query.
 
 - Wait Times Function: The LangChain agent tries to extract a hospital name from the user query. The hospital name is passed as input to a Python function that gets wait times, and the wait time is returned to the agent.
+
+
+![Hospital system graph database design](images/Hospital_sys_design.png)
