@@ -23,3 +23,5 @@ This flowchart illustrates how data moves through the chatbot, starting from the
 
 
 ![Hospital system graph database design](images/Hospital_sys_design.png)
+
+This diagram shows all of the nodes and relationships in the hospital system data. One useful way to think about this flowchart is to start with the Patient node and follow the relationships. A Patient has a visit at a hospital, and the hospital employs a physician to treat the visit which is covered by an insurance payer.
